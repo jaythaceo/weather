@@ -1,5 +1,7 @@
 from geopy.geocoders import Nominatim
+from datetime import datetime, timedelta
+import sys, requests
+
 """
-DarkSky
-secret_key = 
+Dark_Sky_API_KEY = ""
 """
