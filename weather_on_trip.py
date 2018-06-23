@@ -2,7 +2,7 @@ from geopy.geocoders import Nominatim
 from datetime import datetime, timedelta
 import sys, requests
 
-#Dark_Sky_API_KEY = "8d5cc84ae4aa8162409914834108e1d5"
+#Dark_Sky_API_KEY = ""
 option_list = "exclude=currently, minutely,hourly,alerts&units=si"
 
 if (len(sys.argv) < 4):
